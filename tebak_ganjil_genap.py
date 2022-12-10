@@ -15,4 +15,4 @@ while True:
     os.system("cls")
     if njut == "n" or njut == "N":
         break
- print("Program Selesai!, Semoga Harimu Suram.")
+print("Program Selesai!, Semoga Harimu Suram.")
