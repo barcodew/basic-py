@@ -1,15 +1,17 @@
+def ketupat(pat):
+
+    for i in range(pat):
+        for spasi in range(pat-i-1):
+            print(" ",end=" ")
+        for plus in range(2*i+1):
+            print("+",end=" ")
+        print()
+    for a in range(pat-1,0,-1):
+        for spasi in range(pat-a):
+            print(' ',end=" ")
+        for plus in range(2*a-1):
+            print("+",end=" ")
+        print()
 panjang = int(input("Masukkan Panjang : "))
 
-
-for i in range(panjang):
-    for spasi in range(panjang-i-1):
-        print(" ",end = " ")
-    for bintang in range(2*i+1):
-        print("+",end= " ")
-    print()
-for k in range(panjang-1,0,-1):
-    for spasi in range(panjang-k):
-        print(" ",end=" ")
-    for bintang in range(2*k-1):
-        print("+",end=" ")
-    print()
+ketupat(panjang)
