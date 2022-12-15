@@ -52,10 +52,10 @@ while kalku_stats == "y" or kalku_stats == "Y":
 
     tittle()
     maungapain = input('Silahkan Pilih Menu : ')
-    angka_pertama = int(input("Masukkan Angka Pertama  :"))
-    angka_kedua = int(input("Masukkan Angka Kedua  :"))
 
     if maungapain == "1":
+        angka_pertama = int(input("Masukkan Angka Pertama  :"))
+        angka_kedua = int(input("Masukkan Angka Kedua  :"))
         hasil = tambah(angka_pertama,angka_kedua)
         loadnjing()
         time.sleep(1)
@@ -64,6 +64,8 @@ while kalku_stats == "y" or kalku_stats == "Y":
         kalku_stats = input("\n\nLanjut ? (Y/n)  :")
         os.system('cls')  
     elif maungapain == "2":
+        angka_pertama = int(input("Masukkan Angka Pertama  :"))
+        angka_kedua = int(input("Masukkan Angka Kedua  :"))
         hasil = kurang(angka_pertama,angka_kedua)
         loadnjing()
         time.sleep(1)
@@ -72,6 +74,8 @@ while kalku_stats == "y" or kalku_stats == "Y":
         kalku_stats = input("\n\nLanjut ? (Y/n)  :")
         os.system('cls')  
     elif maungapain == "3":
+        angka_pertama = int(input("Masukkan Angka Pertama  :"))
+        angka_kedua = int(input("Masukkan Angka Kedua  :"))
         hasil = kali(angka_pertama,angka_kedua)
         loadnjing()
         time.sleep(1)
@@ -80,6 +84,8 @@ while kalku_stats == "y" or kalku_stats == "Y":
         kalku_stats = input("\n\nLanjut ? (Y/n)  :")
         os.system('cls')  
     elif maungapain == "4":
+        angka_pertama = int(input("Masukkan Angka Pertama  :"))
+        angka_kedua = int(input("Masukkan Angka Kedua  :"))
         hasil = bagi(angka_pertama,angka_kedua)
         loadnjing()
         time.sleep(1)
@@ -88,6 +94,8 @@ while kalku_stats == "y" or kalku_stats == "Y":
         kalku_stats = input("\n\nLanjut ? (Y/n)  :")
         os.system('cls')  
     elif maungapain == "5":
+        angka_pertama = int(input("Masukkan Angka Pertama  :"))
+        angka_kedua = int(input("Masukkan Angka Kedua  :"))
         hasil = pangkat(angka_pertama,angka_kedua)
         loadnjing()
         time.sleep(1)
@@ -101,6 +109,8 @@ while kalku_stats == "y" or kalku_stats == "Y":
     else:
         os.system('cls')
         print("Pilih Menu Dengan Benar!")
+        time.sleep(3)
+        os.system('cls')
 
 print("Program Selesai ! , Have a Nice Day ^__^")
         
