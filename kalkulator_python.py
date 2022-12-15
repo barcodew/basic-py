@@ -31,7 +31,7 @@ def loadnjing():
 def tittle():
     print("="*60)
     print(" ")
-    print(f"{'Selamat Datang Di Kalkulator Sederhana':^40}")
+    print(f"{'Selamat Datang Di Kalkulator Sederhana':^60}")
     print(" ")
     print("="*60)
     print("""
